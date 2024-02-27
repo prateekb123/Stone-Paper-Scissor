@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#heading{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 0px;
+
+}
+
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 30px;
+    gap:5rem;
+}
+
+#user-score, #comp-score{
+    font-size: 3rem;
+    font-weight: 200;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.msg-container{
+    margin: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#msg{
+    background-color: black;
+    font-size: 20px;
+    border-radius: 20px;
+    display: inline;
+    color: white;
+    padding:1rem;
+
+}
+
+
+
+/* body{
+    margin: 0px;
+}
+#heading{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+#card{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+
+#Ans{
+    background-color: black;
+    color: White;
+    height: Auto;
+    width: Auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+} */
